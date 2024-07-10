@@ -1,0 +1,85 @@
+.contacts-section {
+    background-color: #DFDFDF;
+    color: #1F1F1F;
+}
+
+.contacts-section__submit-text {
+    margin: 48px 0;
+}
+
+.contacts-section__submit-text h1 {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.contacts-section__submit-text p {
+    margin-top: 10px;
+
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.contacts-section__field {
+    margin-bottom: 16px;
+}
+.contacts-section__field:last-child {
+    margin-bottom: 0;
+}
+
+.contacts-section__submit-form {
+    background-color: #0ABAB5;
+    width: 100%;
+    margin-top: 10px;
+    border:none;
+    border-radius: 16px;
+    padding: 20px 10px;
+    outline: none;
+
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.contacts-section__info {
+    margin-top: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.contacts-section__map {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contacts-section__contacts {
+    background-color: #1F1F1F;
+    padding: 20px;
+
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contacts-section__collapse {
+    margin-top: 20px;
+}
+
+.contacts-section__faq {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contacts-section__mobile-footer {
+    margin-top: 48px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 900px) {
+    .contacts-section__faq {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

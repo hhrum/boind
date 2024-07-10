@@ -1,0 +1,39 @@
+.services-section {
+    z-index: 3;
+
+    background-color: #EAEAEA;
+    color: #1F1F1F;
+}
+
+.services-section__desctop-content {
+    display: none;
+}
+
+.services-section__service-description {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.services-section__collapse {
+    margin-top: 20px;
+}
+
+.services-section__submit {
+    display: block;
+    background-color: #1F1F1F;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    padding: 12px 0;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    .services-section__service-description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

@@ -59,6 +59,10 @@
     text-decoration: none;
 }
 
+.main-section .section__footer {
+    color: #FFFFFF;
+}
+
 @media screen and (min-width: 900px) {
     .main-section__content {
         flex: 1

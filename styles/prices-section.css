@@ -124,3 +124,59 @@
     border: none;
     color: #fff;
 }
+
+@media screen and (min-width: 900px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .prices-section__cloud-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .prices-section__cloud-title {
+        max-width: 680px;
+    }
+
+    .prices-setcion__title {
+        font-size: 36px;
+        line-height: 42px;
+        text-wrap: nowrap;
+    }
+
+    .prices-section__price {
+        margin-top: 0;
+    }
+
+    .prices-section__number-input {
+        width: max-content;
+
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .prices-section__number-input input {
+        margin-left: 12px;
+    }
+
+    .prices-section__checkboxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .prices-section__checkbox-input {
+        flex: 1;
+        min-width: calc(50% - 10px);
+        max-width: calc(50% - 10px);
+
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .prices-section__checkbox-input span {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

@@ -77,6 +77,16 @@
         line-height: 16px;
     }
 
+    .advantages-section__ceo-photo {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+    }
+
+    .advantages-section__ceo-info {
+        max-width: 300px;
+    }
+
     .advantages-section__ceo-name {
         margin-top: 10px;
 
@@ -92,6 +102,14 @@
         line-height: 18px;
     }
 
+    .advantages-section__advantages {
+        margin:  -16px -5px;
+    }
+
+    .advantage-item {
+        margin:  16px 5px;
+    }
+
     .advantage-item__name {
         margin-top: 6px;
 
@@ -105,5 +123,46 @@
 
         font-size: 14px;
         line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages-section__ceo-info {
+        max-width: 500px;
+    }
+
+    .advantages-section__subheader {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .advantages-section__ceo-name {
+        margin-top: 10px;
+
+        font-size: 52px;
+        line-height: 52px;
+        font-weight: 600;
+    }
+
+    .advantages-section__ceo-description {
+        margin-top: 10px;
+
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .advantage-item__name {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .advantage-item__text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .advantage-item {
+        min-width: 30%;
+        max-width: 35%;
     }
 }

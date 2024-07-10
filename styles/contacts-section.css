@@ -83,3 +83,25 @@
         line-height: 20px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .contacts-section__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts-section__row > * {
+        flex: 1;
+        margin-top: 0;
+        margin-right: 40px;
+        border: 1px solid #9A9A9A;
+    }
+
+    .contacts-section__row .cloud {
+        padding: 40px;
+    }
+
+    .contacts-section__mobile-footer {
+        display: none;
+    }
+}

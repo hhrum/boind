@@ -22,7 +22,7 @@
     padding: 0 20px 20px;
     overflow: hidden;
 
-    transition: 0.3s transform, 0.3s right;
+    transition: 0.3s transform ease-in-out, 0.3s right ease-in-out;
 }
 
 .section:not(:first-child) {

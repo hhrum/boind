@@ -55,6 +55,7 @@ function setActiveSection(element) {
     let mql = window.matchMedia("(min-width: 900px)");
 
     const item = $(element)
+    console.log(item);
 
     if (!mql.matches || !item || item.hasClass('active')) {
         return
@@ -91,11 +92,21 @@ function setWidth() {
 }
 
 $(document).ready(function () {
+    let mql = window.matchMedia("(min-width: 900px)");
+
     $('.section').click(function () {
         setActiveSection(this)
     })
 
-    let mql = window.matchMedia("(min-width: 900px)");
+    $('.main-section__button').click(function (e) {
+        let mql = window.matchMedia("(min-width: 900px)");
+        if (!mql.matches) {
+            return
+        }
+        e.stopPropagation()
+        e.preventDefault()
+        setActiveSection('.prices-section')
+    })
 
     if (!mql.matches) {
         return

@@ -1,11 +1,5 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
 
-    direction: 'horizontal',
-    mousewheel: true,
-});
-
+// Collapse
 $(document).ready(function () {
     $(".collapse.services-section__collapse").on("click", function () {
         $('.collapse.services-section__collapse').removeClass("active");
@@ -15,7 +9,10 @@ $(document).ready(function () {
         $('.collapse.contacts-section__collapse').removeClass("active");
         $(this).toggleClass("active");
     });
+})
 
+// Checkbox
+$(document).ready(function () {
     $(".prices-section__checkbox-input input").on("change", function () {
         console.log('changed');
         console.log(this);
@@ -30,7 +27,6 @@ $(document).ready(function () {
 })
 
 // Sections Logic
-
 const sectionsClasses = [
     "main-section",
     "advantages-section",

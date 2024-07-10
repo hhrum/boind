@@ -127,6 +127,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .advantages-section__ceo-photo {
+        margin-right: 32px;
+    }
     .advantages-section__ceo-info {
         max-width: 500px;
     }
